@@ -1,0 +1,36 @@
+.how-it-works {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.steps {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.step {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.step h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+}
